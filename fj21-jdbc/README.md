@@ -1,10 +1,10 @@
-#Apostila FJ21
+# Apostila FJ21
 
-##Unidade 2.7
+## Unidade 2.7
 
-###Tabela CONTATO:
+### Tabela CONTATO:
 
--MySql
+- MySql
 
 ```
 create schema fj21;
