@@ -21,22 +21,27 @@ public class PopulaConta {
 		conta1.setBanco("001 - BANCO DO BRASIL");
 		conta1.setNumero("16987-8");
 		conta1.setAgencia("6543");
+		conta1.setTitular("Roberto");
 
 		conta2.setBanco("237 - BANCO BRADESCO");
 		conta2.setNumero("86759-1");
 		conta2.setAgencia("1745");
+		conta2.setTitular("Joao");
 
 		conta3.setBanco("341 - BANCO ITAU UNIBANCO");
 		conta3.setNumero("46346-3");
 		conta3.setAgencia("4606");
+		conta3.setTitular("Leandro");
 
 		conta4.setBanco("033 - BANCO SANTANDER");
 		conta4.setNumero("12345-6");
 		conta4.setAgencia("9876");
+		conta4.setTitular("Arnaldo");
 
 		conta5.setBanco("104 - CAIXA ECONOMICA FEDERAL");
 		conta5.setNumero("98654-3");
 		conta5.setAgencia("1234");
+		conta5.setTitular("Marcio");
 
 		// persistindo as contas
 		manager.persist(conta1);
