@@ -16,6 +16,7 @@ public class TesteMovimentacaoConta {
 		Conta conta = movimentacao.getConta();
 		
 		System.out.println(conta.getTitular());
+		System.out.println(movimentacao.getId());
 		
 		em.getTransaction().commit();
 		em.close();
