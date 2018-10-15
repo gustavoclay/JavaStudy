@@ -20,8 +20,8 @@
 		<br>
 		Tipo:
 		<select name="tipo">
-			<option value="ENTRADA"></option>
-			<option value="SAIDA"></option>
+			<option value="ENTRADA">ENTRADA</option>
+			<option value="SAIDA">SAIDA</option>
 		</select>
 		
 		<br><br>
