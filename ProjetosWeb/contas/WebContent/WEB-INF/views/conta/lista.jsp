@@ -4,7 +4,7 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 
-<!DOCTYPE html>
+<!DOCTYPE html>	
 <html>
 <head>
 <meta charset="UTF-8">
@@ -41,6 +41,10 @@
 			<td>
 				<fmt:formatDate value="${conta.dataPagamento.time}" pattern="dd/MM/yyyy" />
 			</td>
+			<td>
+				<a href="removeConta?id=${conta.id}">Deletar</a>
+			</td>
+			
 		
 		</tr>
 		</c:forEach>
